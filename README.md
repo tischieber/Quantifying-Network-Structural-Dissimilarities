@@ -33,13 +33,20 @@ Here, we use geng to generate all graphs of a specified class and showg to write
 Our distance returns a positive value for all the cases here considered.
 
  Nodes	 #graphs 	Filename
+
 4	11 	        graph_n=4 ;
+
 5	34	        graph_n=5 ;
+
 6	156	        graph_n=6  ;     
+
 7	1044	        graph_n=7 ;
+
 8	12346 	        graph_n=8 ;
+
 9 	274668	        graph_n=9 ;
-10 12005168 	graph_n=10 ;
+
+10      12005168 	graph_n=10 ;
 
 
 20 Nodes
@@ -51,17 +58,27 @@ k-regular graphs
 
 k	 # graphs
 	  dataset           (7z zip files)
-2 
-	1 	        regular_graph_n=20_k=2   (34 bytes)
+
+2 	1 	        regular_graph_n=20_k=2   (34 bytes)
+
 3	5104            regular_graph_n=20_k=3   (17 MB)
+
 4	1533866586 	regular_graph_n=20_k=4   (7 GB)
+
 5	476565504 	regular_graph_n=20_k=5   (2 GB)
+
 6	188290831 	regular_graph_n=20_k=6   (731 MB)
+
 7	93595527 	regular_graph_n=20_k=7   (374 MB)
+
 8	25954544 	regular_graph_n=20_k=8   (99 MB)
+
 9	15752252 	regular_graph_n=20_k=9   (76 MB)
+
 10	8998309 	regular_graph_n=20_k=10  (49 MB)
+
 11	10245059 	regular_graph_n=20_k=11  (52 MB)
+
 12 	14024101	regular_graph_n=20_k=12  (69 MB) 
 
 
