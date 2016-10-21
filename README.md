@@ -33,13 +33,13 @@ Here, we use geng to generate all graphs of a specified class and showg to write
 Our distance returns a positive value for all the cases here considered.
 
  Nodes	 #graphs 	Filename
-4	11 	        graph_n=4 
-5	34	        graph_n=5
-6	156	        graph_n=6       
-7	1044	        graph_n=7 
-8	12346 	        graph_n=8
-9 	274668	        graph_n=9 
-10 12005168 	graph_n=10
+4	11 	        graph_n=4 ;
+5	34	        graph_n=5 ;
+6	156	        graph_n=6  ;     
+7	1044	        graph_n=7 ;
+8	12346 	        graph_n=8 ;
+9 	274668	        graph_n=9 ;
+10 12005168 	graph_n=10 ;
 
 
 20 Nodes
