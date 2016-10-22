@@ -8,7 +8,7 @@ Quantifying network structural dissimilarities by Tiago A. Schieber, Laura Carpi
 %%%%%%%%%%%%%%%%
 
 Algorithm
-The algorithm is written in R and uses functions from the igraph library (The Network Analysis Package). The program reads two graphs on an edge list format, and computes the D-distance, as discussed in the article. 
+The algorithm is written in R and uses functions from the igraph library (The Network Analysis Package). The program reads two graphs on an edge list format, the weights (w1, w2 and w3) and computes the D-distance, as discussed in the article. 
 
 download algorithm: d_distance.r
 
@@ -24,10 +24,12 @@ Instances for the non-isomorphic test
 The experiment consists in computing the D-distance between pairs of known non-isomorphic graphs.  
 
 Generation
-Nauty and Traces are programs for computing automorphism groups of graphs and digraphs. They can also produce a canonical labeling. See Brendan McKay and Adolfo Piperno's web page for more information.
+Nauty and Traces are programs for computing automorphism groups of graphs and digraphs. They can also produce a canonical labeling. See Brendan McKay and Adolfo Piperno's web page (http://pallini.di.uniroma1.it/) for more information.
 Here, we use geng to generate all graphs of a specified class and showg to write graphs in human-readable format.
 
 Our distance returns a positive value for all the cases here considered.
+
+The data can be found at (
 
  Nodes	 #graphs 	Filename
 4	11 	        graph_n=4 
