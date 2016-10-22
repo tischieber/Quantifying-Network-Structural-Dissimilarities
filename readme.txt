@@ -18,6 +18,11 @@ D(g,h,w1,w2,w3)
 
 For example, D("net1.txt","net2.txt",0.45,0.45,0.1) computes the D measure considering w1=0.45, w2=0.45 and w3=0.1 between the networks net1.txt and net2.txt in an edgelist format.
 
+As discussed in the article, there is a significant computational drawback in using the alpha-centrality of the complement in large and sparse graphs. The d-function computes the dissimilarity disconsidering the use of the complement. 
+
+For example, d("net1.txt","net2.txt",0.45,0.45,0.1) computes the dissimilarity measure considering w1=0.45, w2=0.45 and w3=0.1 between the networks net1.txt and net2.txt in an edgelist format disconsidering the Jensen-Shannon between the alpha-centrality distribution of the graph's complement.
+
+
 %%%%%%%%%%%%%%%%
 
 Instances for the non-isomorphic test
@@ -29,7 +34,9 @@ Here, we use geng to generate all graphs of a specified class and showg to write
 
 Our distance returns a positive value for all the cases here considered.
 
-The data can be found at (
+The data can be found at (https://github.com/tischieber/QDN_Nature_Comms/wiki).
+
+Some files are in 7zip format (see http://www.7-zip.org/ for more information).
 
  Nodes	 #graphs 	Filename
 4	11 	        graph_n=4 
