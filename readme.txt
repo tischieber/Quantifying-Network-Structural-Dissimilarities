@@ -8,7 +8,7 @@ Quantifying network structural dissimilarities by Tiago A. Schieber, Laura Carpi
 %%%%%%%%%%%%%%%%
 
 Algorithm
-The algorithm is written in R and uses functions from the igraph library (The Network Analysis Package). The program reads two graphs on an edge list format, the weights (w1, w2 and w3) and computes the D-distance, as discussed in the article. 
+The algorithm is written in R and uses functions from the igraph library (The Network Analysis Package - http://igraph.org/). The program reads two graphs on an edge list format, the weights (w1, w2 and w3) and computes the D-distance, as discussed in the article. 
 
 download algorithm: d_distance.r
 
