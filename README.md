@@ -4,4 +4,4 @@
 
 Tiago A. Schieber, Laura Carpi, Albert Díaz-Guilera, Panos M. Pardalos, Cristina Masoller and Martín G. Ravetti
 
-For information regarding dataset download, algorithm and codes please read the "readme.txt" file.
+For information regarding the dataset download, algorithm and codes please read the "readme.txt" file.
