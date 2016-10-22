@@ -3,3 +3,5 @@
 # Quantifying network structural dissimilarities 
 
 Tiago A. Schieber, Laura Carpi, Albert Díaz-Guilera, Panos M. Pardalos, Cristina Masoller and Martín G. Ravetti
+
+For information regarding dataset download, algorithm and codes please read readme.txt file.
