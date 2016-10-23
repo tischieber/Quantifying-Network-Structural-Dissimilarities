@@ -12,7 +12,7 @@ In this repository, you will find the codes and instances used in the article:
 Quantifying network structural dissimilarities by Tiago A. Schieber, Laura Carpi, Albert Díaz-Guilera, Panos M. Pardalos, Cristina Masoller and Martín G. Ravetti
 
 | Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
+| :-------------: |:-------------:| :-----:|
 | col 3 is      | right-aligned | $1600 |
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
