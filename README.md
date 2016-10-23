@@ -40,8 +40,6 @@ Here, we use geng to generate all graphs of a specified class and showg to write
 
 Our distance returns a positive value for all the cases here considered.
 
-The data can be found at (https://github.com/tischieber/QDN_Nature_Comms/wiki).
-
 Some files are in 7zip format (see http://www.7-zip.org/ for more information).
 
 
