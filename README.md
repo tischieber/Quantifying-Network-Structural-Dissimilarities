@@ -82,7 +82,7 @@ Non-isomorphic connected trees
 
 
 |Nodes| # graphs| dataset|
-|:-----:||:-----:||:-----:|
+|:-----:|:-----:|:-----:|
 |18|123867|[connected_trees_n=18](https://drive.google.com/file/d/0B92qPSf2Wn1LNFlzZUtfd2ZQTDA/view) (3 MB)| 
 |20|823065|[connected_trees_n=20](https://drive.google.com/file/d/0B92qPSf2Wn1LRmpzYkFKcnRPWWM/view) (27 MB)| 
 |21|2144505| [connected_trees_n=21](https://drive.google.com/file/d/0B92qPSf2Wn1LVVhnRWJuU2tib0E/view) (76 MB)|
