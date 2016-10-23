@@ -66,8 +66,7 @@ k-regular graphs
 
 k	 # graphs
 	  dataset           (7z zip files)
-2 
-	1 	        regular_graph_n=20_k=2   (34 bytes)
+2 	1 	        regular_graph_n=20_k=2   (34 bytes)
 3	5104            regular_graph_n=20_k=3   (17 MB)
 4	1533866586 	regular_graph_n=20_k=4   (7 GB)
 5	476565504 	regular_graph_n=20_k=5   (2 GB)
