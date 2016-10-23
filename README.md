@@ -78,22 +78,6 @@ k-regular graphs
 |12| 14024101| [regular_graph_n=20_k=12](https://drive.google.com/file/d/0B92qPSf2Wn1LWWVkLTQ1Y3JMVzA/view)  (69 MB)
 
 
-
-k	 # graphs
-	  dataset           (7z zip files)
-2 	1 	        regular_graph_n=20_k=2   (34 bytes)
-3	5104            regular_graph_n=20_k=3   (17 MB)
-4	1533866586 	regular_graph_n=20_k=4   (7 GB)
-5	476565504 	regular_graph_n=20_k=5   (2 GB)
-6	188290831 	regular_graph_n=20_k=6   (731 MB)
-7	93595527 	regular_graph_n=20_k=7   (374 MB)
-8	25954544 	regular_graph_n=20_k=8   (99 MB)
-9	15752252 	regular_graph_n=20_k=9   (76 MB)
-10	8998309 	regular_graph_n=20_k=10  (49 MB)
-11	10245059 	regular_graph_n=20_k=11  (52 MB)
-12 	14024101	regular_graph_n=20_k=12  (69 MB) 
-
-
 Non-isomorphic connected trees
 
 
