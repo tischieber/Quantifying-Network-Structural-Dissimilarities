@@ -47,12 +47,19 @@ The data can be found at (https://github.com/tischieber/QDN_Nature_Comms/wiki).
 Some files are in 7zip format (see http://www.7-zip.org/ for more information).
 
  Nodes	 #graphs 	Filename
+ 
 4	11 	        graph_n=4 
+
 5	34	        graph_n=5
+
 6	156	        graph_n=6       
+
 7	1044	        graph_n=7 
+
 8	12346 	        graph_n=8
+
 9 	274668	        graph_n=9 
+
 10 	12005168 	graph_n=10
 
 
