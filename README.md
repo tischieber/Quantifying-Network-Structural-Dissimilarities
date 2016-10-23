@@ -1,6 +1,6 @@
 # Quantifying network structural dissimilarities 
 
-Tiago A. Schieber, Laura Carpi, Albert Díaz-Guilera, Panos M. Pardalos, Cristina Masoller and Martín G. Ravetti
+##Tiago A. Schieber, Laura Carpi, Albert Díaz-Guilera, Panos M. Pardalos, Cristina Masoller and Martín G. Ravetti
 
 For information regarding the dataset download, algorithm and codes please read the "readme.txt" file.
 
@@ -12,9 +12,8 @@ In this repository, you will find the codes and instances used in the article:
 Quantifying network structural dissimilarities by Tiago A. Schieber, Laura Carpi, Albert Díaz-Guilera, Panos M. Pardalos, Cristina Masoller and Martín G. Ravetti
 
 
-%%%%%%%%%%%%%%%%
+##Algorithm
 
-Algorithm
 The algorithm is written in R and uses functions from the igraph library (The Network Analysis Package - http://igraph.org/). The program reads two graphs on an edge list format, the weights (w1, w2 and w3) and computes the D-distance, as discussed in the article. 
 
 download algorithm: d_distance.r
@@ -30,12 +29,12 @@ As discussed in the article, there is a significant computational drawback in us
 For example, d("net1.txt","net2.txt",0.45,0.45,0.1) computes the dissimilarity measure considering w1=0.45, w2=0.45 and w3=0.1 between the networks net1.txt and net2.txt in an edgelist format disconsidering the Jensen-Shannon between the alpha-centrality distribution of the graph's complement.
 
 
-%%%%%%%%%%%%%%%%
+##Instances for the non-isomorphic test
+ 
+ The experiment consists in computing the D-distance between pairs of known non-isomorphic graphs.  
 
-Instances for the non-isomorphic test
-The experiment consists in computing the D-distance between pairs of known non-isomorphic graphs.  
+### Generation
 
-Generation
 Nauty and Traces are programs for computing automorphism groups of graphs and digraphs. They can also produce a canonical labeling. See Brendan McKay and Adolfo Piperno's web page (http://pallini.di.uniroma1.it/) for more information.
 Here, we use geng to generate all graphs of a specified class and showg to write graphs in human-readable format.
 
