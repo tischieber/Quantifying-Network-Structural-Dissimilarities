@@ -63,6 +63,21 @@ When considering 20 nodes, the complete set of non-isomorphic graphs has approxi
 
 k-regular graphs
 
+|k| # graphs|7z zip files|
+|:------:|:-----:|:------:|
+|2|1|[regular_graph_n=20_k=2](https://drive.google.com/file/d/0B92qPSf2Wn1LM2l0OVpvNURSZDQ/view)   (34 bytes)
+|3|5104|            [regular_graph_n=20_k=3](https://drive.google.com/file/d/0B92qPSf2Wn1LQnMyTzhjcXlUQm8/view)   (17 MB)
+|4|1533866586| [regular_graph_n=20_k=4](https://drive.google.com/file/d/0B92qPSf2Wn1LOTBuMXVuVFEtWGc/view)   (7 GB)
+|5 |476565504 |[regular_graph_n=20_k=5](https://drive.google.com/file/d/0B92qPSf2Wn1LdHFDUl81NldWZG8/view)   (2 GB)
+|6| 188290831| [regular_graph_n=20_k=6](https://drive.google.com/file/d/0B92qPSf2Wn1LQVo3UFpwdGtOTXM/view)   (731 MB)
+|7| 93595527 |[regular_graph_n=20_k=7](https://drive.google.com/file/d/0B92qPSf2Wn1LWUxoWEhNSk93TEk/view)   (374 MB)
+|8| 25954544 |[regular_graph_n=20_k=8](https://drive.google.com/file/d/0B92qPSf2Wn1LWWt4ZDFPdUtnekk/view)   (99 MB)
+|9| 15752252 |[regular_graph_n=20_k=9](https://drive.google.com/file/d/0B92qPSf2Wn1LZS1remdOWkJLN1E/view)   (76 MB)
+|10| 8998309 |[regular_graph_n=20_k=10](https://drive.google.com/file/d/0B92qPSf2Wn1LVUdCWGdnN2xRYWM/view)  (49 MB)
+|11| 10245059| [regular_graph_n=20_k=11](https://drive.google.com/file/d/0B92qPSf2Wn1LcTloUWJPQmZTeTA/view)  (52 MB)
+|12| 14024101| [regular_graph_n=20_k=12](https://drive.google.com/file/d/0B92qPSf2Wn1LWWVkLTQ1Y3JMVzA/view)  (69 MB)
+
+
 
 k	 # graphs
 	  dataset           (7z zip files)
