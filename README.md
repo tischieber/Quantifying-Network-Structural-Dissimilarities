@@ -50,9 +50,16 @@ The data can be found at (https://github.com/tischieber/QDN_Nature_Comms/wiki).
 
 Some files are in 7zip format (see http://www.7-zip.org/ for more information).
 
- Nodes	 #graphs 	Filename
+| Nodes	         | #graphs 	           | Filename  |
+| ------------- |:-------------:| -----:|
+| 4        | 11 	         | [graph_n=4](https://drive.google.com/file/d/0B92qPSf2Wn1LYnk0b0IteW9ISXM/view) |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
  
-4  11 	        [graph_n=4](https://drive.google.com/file/d/0B92qPSf2Wn1LYnk0b0IteW9ISXM/view)
+ 
+
 
 5	34	     [graph_n=5](https://drive.google.com/file/d/0B92qPSf2Wn1LZDFYYmVES01WZEk/view)
 
