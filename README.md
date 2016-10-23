@@ -43,7 +43,7 @@ Our distance returns a positive value for all the cases here considered.
 Some files are in 7zip format (see http://www.7-zip.org/ for more information).
 
 
-|Nodes| #graphs| Filename  |
+|Nodes| #graphs| Files |
 |:-------------:|:-------------:| -----:| 
 | 4 | 11|[graph_n=4](https://drive.google.com/file/d/0B92qPSf2Wn1LYnk0b0IteW9ISXM/view) |
 |5|34|[graph_n=5](https://drive.google.com/file/d/0B92qPSf2Wn1LZDFYYmVES01WZEk/view)|
@@ -60,7 +60,7 @@ When considering 20 nodes, the complete set of non-isomorphic graphs has approxi
 
 k-regular graphs
 
-|k| # graphs|7z zip files|
+|k| # graphs|Files|
 |:------:|:-----:|:------:|
 |2|1|[regular_graph_n=20_k=2](https://drive.google.com/file/d/0B92qPSf2Wn1LM2l0OVpvNURSZDQ/view)   (34 bytes)
 |3|5104|            [regular_graph_n=20_k=3](https://drive.google.com/file/d/0B92qPSf2Wn1LQnMyTzhjcXlUQm8/view)   (17 MB)
@@ -78,7 +78,7 @@ k-regular graphs
 Non-isomorphic connected trees
 
 
-|Nodes| # graphs| dataset|
+|Nodes| # graphs| Files|
 |:-----:|:-----:|:-----:|
 |18|123867|[connected_trees_n=18](https://drive.google.com/file/d/0B92qPSf2Wn1LNFlzZUtfd2ZQTDA/view) (3 MB)| 
 |20|823065|[connected_trees_n=20](https://drive.google.com/file/d/0B92qPSf2Wn1LRmpzYkFKcnRPWWM/view) (27 MB)| 
