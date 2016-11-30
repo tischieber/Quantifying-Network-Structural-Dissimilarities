@@ -90,3 +90,5 @@ Non-isomorphic connected trees
 Contact information
 
 Martin Gómez Ravetti - martin.ravetti at dep.ufmg.br
+
+Tiago Schieber - tischieber@gmail.com
