@@ -253,7 +253,7 @@ return(w1*first+w2*second+w3*third)
 
 
 
-rm(list=setdiff(ls(),lsf.str()))
+# rm(list=setdiff(ls(),lsf.str()))
 
 
 # g3 <- graph.graphdb("si6_r005_s100.B99") database de graph isomorphism 
