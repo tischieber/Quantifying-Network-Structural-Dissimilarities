@@ -102,9 +102,9 @@ second<-0
 
 third<-0
 
-g<-read.graph(g,format=c("edgelist"),directed=FALSE)
+# g<-read.graph(g,format=c("edgelist"),directed=FALSE)
 
-h<-read.graph(h,format=c("edgelist"),directed=FALSE)
+# h<-read.graph(h,format=c("edgelist"),directed=FALSE)
 
 N<-length(V(g))
 
@@ -192,9 +192,9 @@ second<-0
 
 third<-0
 
-g<-read.graph(g,format=c("edgelist"),directed=FALSE)
+# g<-read.graph(g,format=c("edgelist"),directed=FALSE)
 
-h<-read.graph(h,format=c("edgelist"),directed=FALSE)
+# h<-read.graph(h,format=c("edgelist"),directed=FALSE)
 
 N<-length(V(g))
 
