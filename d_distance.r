@@ -94,7 +94,7 @@ return(c(r,max(c(0,1-sum(r)))))
 
 #function
 
-D<-function(g,h,w1,w2,w3){
+D<-function(g,h,w1=0.45,w2=0.45,w3=0.1){
 
 first<-0
 
@@ -184,7 +184,7 @@ return(w1*first+w2*second+w3*third)
 
 #function
 
-d<-function(g,h,w1,w2,w3){
+d<-function(g,h,w1=0.5,w2=0.5,w3=0){
 
 first<-0
 
