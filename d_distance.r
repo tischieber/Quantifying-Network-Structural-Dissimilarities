@@ -29,7 +29,7 @@ a<-Matrix(0,nrow=n,ncol=n,sparse=TRUE)
 
 m<-shortest.paths(g,algorithm=c("unweighted"))
 
-m[which(m=="Inf")]<-n
+if(any(is.infinite(m))) m[which(m==Inf)]<-n
 
 quem<-setdiff(intersect(m,m),0)
 
