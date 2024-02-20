@@ -29,7 +29,7 @@ a<-Matrix(0,nrow=n,ncol=n,sparse=TRUE)
 
 m<-shortest.paths(g,algorithm=c("unweighted"))
 
-m[which(m=="Inf")]<-n
+if(any(is.infinite(m))) m[which(m==Inf)]<-n
 
 quem<-setdiff(intersect(m,m),0)
 
@@ -94,7 +94,7 @@ return(c(r,max(c(0,1-sum(r)))))
 
 #function
 
-D<-function(g,h,w1,w2,w3){
+D<-function(g,h,w1=0.45,w2=0.45,w3=0.1){
 
 first<-0
 
@@ -102,9 +102,9 @@ second<-0
 
 third<-0
 
-g<-read.graph(g,format=c("edgelist"),directed=FALSE)
+# g<-read.graph(g,format=c("edgelist"),directed=FALSE)
 
-h<-read.graph(h,format=c("edgelist"),directed=FALSE)
+# h<-read.graph(h,format=c("edgelist"),directed=FALSE)
 
 N<-length(V(g))
 
@@ -184,7 +184,7 @@ return(w1*first+w2*second+w3*third)
 
 #function
 
-d<-function(g,h,w1,w2,w3){
+d<-function(g,h,w1=0.5,w2=0.5,w3=0){
 
 first<-0
 
@@ -192,9 +192,9 @@ second<-0
 
 third<-0
 
-g<-read.graph(g,format=c("edgelist"),directed=FALSE)
+# g<-read.graph(g,format=c("edgelist"),directed=FALSE)
 
-h<-read.graph(h,format=c("edgelist"),directed=FALSE)
+# h<-read.graph(h,format=c("edgelist"),directed=FALSE)
 
 N<-length(V(g))
 
@@ -253,7 +253,7 @@ return(w1*first+w2*second+w3*third)
 
 
 
-rm(list=setdiff(ls(),lsf.str()))
+# rm(list=setdiff(ls(),lsf.str()))
 
 
 # g3 <- graph.graphdb("si6_r005_s100.B99") database de graph isomorphism 
